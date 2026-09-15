@@ -1,0 +1,2 @@
+# Streamlit Cloud system package for Tesseract OCR
+tesseract-ocr
