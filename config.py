@@ -38,7 +38,7 @@ def get_default_groq_vision_model() -> str:
             return secret_model
     except Exception:
         pass
-    return os.getenv("GROQ_VISION_MODEL", "qwen/qwen3.6-27b").strip() or "qwen/qwen3.6-27b"
+    return os.getenv("GROQ_VISION_MODEL", "qwen/qwen3.8-27b").strip() or "qwen/qwen3.8-27b"
 
 
 GROQ_VISION_MODEL: str = get_default_groq_vision_model()
